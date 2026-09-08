@@ -1,0 +1,40 @@
+hospital-management-system/
+│
+├── backend/
+│   ├── app/
+│   │   ├── main.py
+│   │   │
+│   │   ├── api/
+│   │   │   ├── patients.py
+│   │   │   ├── doctors.py
+│   │   │   ├── appointments.py
+│   │   │   ├── beds.py
+│   │   │   └── patient_flow.py
+│   │   │
+│   │   ├── models/
+│   │   │   ├── patient.py
+│   │   │   ├── doctor.py
+│   │   │   ├── appointment.py
+│   │   │   └── bed.py
+│   │   │
+│   │   ├── database/
+│   │   │   └── connection.py
+│   │   │
+│   │   └── ai/
+│   │       ├── wait_time_prediction.py
+│   │       └── bed_prediction.py
+│   │
+│   ├── tests/
+│   └── requirements.txt
+│
+├── frontend/
+│   ├── src/
+│   ├── package.json
+│   └── README.md
+│
+├── docs/
+│   └── architecture.md
+│
+├── .env.example
+├── .gitignore
+└── README.md
